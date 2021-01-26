@@ -13,6 +13,22 @@ function pageLoad() {
   // }
   //  👆 YOUR CODE ENDS HERE. DON'T CHANGE ANY OTHER CODE 👆
   
+
+let profile = {
+  name: 'Ignacio',
+  location: 'Evanston',
+  status: 'Student'
+}
+// console.log(profile.name)
+// console.log(profile.location) // { for objects}
+
+
+
+let burger = ['buns', 'groundd beef', 'amercian cheese']  
+burger.push('ketchup')
+console.log(burger)
+
+
   // template literals support HTML too!
   output = `
     <div class="text-4xl">Sweet</div>

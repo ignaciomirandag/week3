@@ -27,6 +27,17 @@ let promotion3Icon          // expects a String (emoji)
 function pageLoad() {
   // 👇 YOUR CODE BEGINS HERE. DON'T CHANGE ANY OTHER CODE. 👇
 
+  numberOfProducts = database.products.length
+  console.log(numberOfProducts)
+
+  products = database.products
+  console.log(products)
+
+  promotion1Description = database.promotions[0].description
+  promotion2Description = database.promotions[1].description
+  promotion3Description = database.promotions[2].description
+
+
   // 🔥🔥🔥 YOUR CODE GOES HERE 🔥🔥🔥
   console.log(database)
 
